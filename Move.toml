@@ -1,0 +1,17 @@
+[package]
+name = 'Snore'
+version = '0.0.1'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+
+[addresses]
+snore = "0x1660c528ce8a8cb84207189cf26d5662cf82b4b86bb3d0d999bfe1d7dca18399"
+
